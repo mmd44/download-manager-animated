@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
 
 
         createChannel(
-            CHANNEL_ID,
+            getString(R.string.dm_notification_channel_id),
             getString(R.string.dm_notification_channel_name)
         )
 
@@ -152,10 +152,6 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, getString(R.string.select_a_repo),
                 Toast.LENGTH_LONG).show()
         }
-    }
-
-    companion object {
-        private const val CHANNEL_ID = "channelId"
     }
 
 }
