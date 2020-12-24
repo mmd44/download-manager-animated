@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadingButton">
+        <attr name="idleColor" format="integer" />
+        <attr name="loadingFillColor" format="integer" />
+        <attr name="loadingCircleColor" format="integer" />
+        <attr name="textColor" format="integer" />
+    </declare-styleable>
+</resources>
